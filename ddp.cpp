@@ -7,7 +7,7 @@ public:
         }
         unordered_set<int> seen;
         for (auto it : freq){
-            if(seen.count(it.second)){
+            // if(seen.count(it.second)){
                 return false;
             }
             seen.insert(it.second);
